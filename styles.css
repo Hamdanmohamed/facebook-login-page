@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.logo{
+    color: #2c64f6;
+    padding: 23px;
+    font-size: 55px;
+
+}
+.sub-container{
+    width: 432px;
+    background-color: #fff;   
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+h1{
+    padding: 3px;
+}
+p{
+    padding-bottom: 5px;
+}
+.backc{
+    width: 100%;
+    height: 55px;
+    background-color:#f0f2f5 ;
+    
+}
+
+.header{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    border-bottom: 1px solid #dbdde1; 
+} 
+
+.input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #dbdde1 ;
+    font-size: 16px;
+}
+
+.names,.email,.password{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 14px;
+    flex-wrap: wrap;
+}
+
+.number{
+    width:385px;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #dbdde1 ;
+    font-size: 16px;
+
+}
+label{
+    
+   
+    margin-left: 14px;
+    font-weight:normal;
+    font-size: small;
+}
+.dob,.gender{
+    margin-top: 10px;
+    
+
+   
+} 
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4px;
+}
+
+select{
+    width: 28%;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #dbdde1 ;
+    
+    
+}
+.sub-gender{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.gender-btn{
+    width: 22%;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #dbdde1 ;
+    display: flex;
+    display: flex;
+    justify-content:space-between;
+    
+    
+    
+
+}
+.label1{
+    font-size: 14px;
+}
+.radioinput{
+    padding-left:9px;
+    
+
+}
+#para1{
+    font-size: 11px;
+    padding: 13px;
+    
+   
+    
+}
+a{
+    text-decoration: none;
+}
+.signup,.account{
+    display: flex;
+    justify-content: center;
+}   
+
+
+.button-signup{
+    padding: 10px 55px;
+    background-color: #49a22e;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight:600;
+    border: none;
+    
+}
+.paragraph{
+    padding: 20px;
+    color: #2c64f6;
+    font-size: 18px;
+}
+
